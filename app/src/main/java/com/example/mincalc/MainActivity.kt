@@ -66,6 +66,8 @@ class MainActivity : AppCompatActivity() {
         return minutesBetween(currentDate.time, selectedDate.time)
     }
 
+    //Testing github
+
     private fun minutesBetween(startDate: Date, endDate: Date): Long {
         val diff = endDate.time - startDate.time
         return diff / (60 * 1000)
