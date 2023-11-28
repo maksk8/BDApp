@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAYS"
+        android:textSize="25sp"
+        android:textColor="@color/text2"
+        android:background="@color/textBackground1"
+        android:padding="5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO YOUR BIRTHDAY"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINUTES"
+        android:textSize="25sp"
+        android:textColor="@color/text2"
+        android:background="@color/textBackground1"
+        android:padding="5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"
+        android:backgroundTint="@color/buttonBackground"
+        android:text="PICK DATE"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text3"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:id="@+id/tvSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/text3"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8sp"/>
+
+</LinearLayout>
